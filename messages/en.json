@@ -1,0 +1,36 @@
+{
+  "HeroSection": {
+    "title": "Redefine Shopping",
+    "highlight": "Bliss With Kirana Jet",
+    "button_heading": "Shop Now",
+    "button_subtext": "Through WhatsApp!"
+  },
+  "TransformSection": {
+    "heading": "Transforming Everyday",
+    "highlight": "Shopping with Quality",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias eum necessitatibus similique ea totam sint, odio hic dolor a? Eos!"
+  },
+  "WideRange": {
+    "title": "Explore Our Wide Product Range",
+    "description": "We offer everything from groceries to stationery, snacks, and household essentials — all from trusted local stores."
+  },
+  "HowItWorks": {
+    "title": "How It Works",
+    "step1": "Browse through our catalog",
+    "step2": "Order directly via WhatsApp",
+    "step3": "Fast delivery from your local stores"
+  },
+  "WhyChooseUs": {
+    "title": "Why Choose Kirana Jet?",
+    "point1": "Local stores, trusted quality",
+    "point2": "Instant WhatsApp ordering",
+    "point3": "Doorstep delivery within hours",
+    "point4": "Wide variety of essentials"
+  },
+  "Footer": {
+    "contact": "Contact Us",
+    "address": "Your City Name, Local Area",
+    "email": "support@kirana-jet.in",
+    "phone": "+91 98765 43210"
+  }
+}

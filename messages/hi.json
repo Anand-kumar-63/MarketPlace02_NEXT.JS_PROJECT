@@ -1,0 +1,36 @@
+{
+  "HeroSection": {
+    "title": "खरीदारी को नया रूप दें",
+    "highlight": "किराना जेट के साथ आनंद लें",
+    "button_heading": "अभी खरीदें",
+    "button_subtext": "WhatsApp के ज़रिए!"
+  },
+  "TransformSection": {
+    "heading": "हर दिन की खरीदारी को बदल रहे हैं",
+    "highlight": "गुणवत्ता के साथ शॉपिंग",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias eum necessitatibus similique ea totam sint, odio hic dolor a? Eos!"
+  },
+  "WideRange": {
+    "title": "हमारी विस्तृत उत्पाद श्रृंखला देखें",
+    "description": "हम किराने से लेकर स्टेशनरी, स्नैक्स और घरेलू आवश्यकताओं तक सब कुछ प्रदान करते हैं — और वह भी आपके भरोसेमंद स्थानीय स्टोर्स से।"
+  },
+  "HowItWorks": {
+    "title": "कैसे काम करता है",
+    "step1": "हमारे कैटलॉग को ब्राउज़ करें",
+    "step2": "WhatsApp के माध्यम से ऑर्डर करें",
+    "step3": "स्थानीय स्टोर्स से तेज़ डिलीवरी"
+  },
+  "WhyChooseUs": {
+    "title": "किराना जेट क्यों चुनें?",
+    "point1": "स्थानीय स्टोर, भरोसेमंद गुणवत्ता",
+    "point2": "तुरंत WhatsApp ऑर्डरिंग",
+    "point3": "घंटों में होम डिलीवरी",
+    "point4": "जरूरत की हर चीज़ उपलब्ध"
+  },
+  "Footer": {
+    "contact": "संपर्क करें",
+    "address": "आपके शहर का नाम, स्थानीय क्षेत्र",
+    "email": "support@kirana-jet.in",
+    "phone": "+91 98765 43210"
+  }
+}
