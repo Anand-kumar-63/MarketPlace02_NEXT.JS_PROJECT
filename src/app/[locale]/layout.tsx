@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
-import { notFound } from 'next/navigation';
+import { notFound } from "next/navigation";
 import "./globals.css";
 import Navbar from "@/Components/Navbar/Navbar";
 import { routing } from "@/i18n/routing";
@@ -23,12 +23,12 @@ export const metadata: Metadata = {
 
 export default async function LocaleLayout({
   children,
-  params:{
-    locale }
+  params,
 }: {
   children: React.ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }) {
+  const { locale } = await params;
   console.log("Locale:", locale);
   if (!hasLocale(routing.locales, locale)) {
     notFound();
