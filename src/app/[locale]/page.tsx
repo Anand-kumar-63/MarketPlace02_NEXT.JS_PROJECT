@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect } from "react";
+import React from "react";
 import { Button } from "@/Components/ui/button";
 
 import Footer from "@/Components/Footer/Footer";
@@ -9,7 +9,7 @@ import HowItWorks from "@/Components/HowitWorks/HowitWorks";
 import { useTranslations } from "next-intl";
 import TransformSection from "@/Components/WhatweareBringing/WhatweareBringing";
 
-const page = () => {
+const Page = () => {
   const translate = useTranslations();
 
   return (
@@ -70,4 +70,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

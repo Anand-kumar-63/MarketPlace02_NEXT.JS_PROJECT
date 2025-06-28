@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Link from "next/link";
 
 import {
@@ -10,9 +10,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "../ui/select";
-import { Button } from "../ui/button";
 import { Icon } from "@iconify/react";
-import { useRouter } from "next/router";
 import { usePathname } from "next/navigation";
 import { useLocale } from "next-intl";
 
@@ -21,7 +19,7 @@ const Navbar = () => {
   const pathname = usePathname();
   const currentLocale = useLocale();
 
-  const [darkmode, setdarkmode] = useState(false);
+  // const [darkmode, setdarkmode] = useState(false);
 
   const handleLocaleChange = (newLocale: string) => {
     window.location.href = pathname.replace(
