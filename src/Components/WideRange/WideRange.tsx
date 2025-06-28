@@ -1,4 +1,7 @@
+"use client";
+
 import React from "react";
+import { useTranslations } from "next-intl";
 import {
   Carousel,
   CarouselContent,
@@ -8,125 +11,107 @@ import {
 } from "../ui/carousel";
 
 const WideRange = () => {
+  const t = useTranslations("WideRange");
+
   return (
-    <div className="p-10 w-full flex flex-row justify-between ">
-      <div className="px-10 flex flex-row justify-center items-center gap-6 rounded-2xl">
+    <div className="flex flex-col-reverse lg:flex-row justify-between items-center w-full p-4 sm:p-8 md:p-10 gap-10">
+      {/* Left: Carousel Section */}
+      <div className="w-full lg:w-2/3 px-2 sm:px-6">
         <Carousel className="rounded-2xl transition-all duration-200">
-          <CarouselContent className="w-[900px] flex flex-row gap-10 rounded-2xl">
+          <CarouselContent className="flex flex-row gap-6 sm:gap-8 md:gap-10">
             {/* Stationery 1 */}
-            <CarouselItem className="md:basis-1/2 lg:basis-1/2 w-[300px] p-1 bg-blue-500 h-[500px] rounded-2xl">
+            <CarouselItem className="basis-full sm:basis-1/2 md:basis-1/3 p-1 bg-blue-500 h-[450px] sm:h-[500px] rounded-2xl">
               <div
                 style={{ backgroundImage: `url('/images/stationary2.jpg')` }}
                 className="relative h-full w-full bg-cover bg-center rounded-2xl"
               >
                 <div className="absolute h-[140px] bottom-0 left-0 right-0 bg-black/60 text-white p-4 rounded-b-2xl">
-                  <h3 className="text-xl font-bold">Stationery</h3>
-                  <p className="text-md">
-                    Organize your workspace with high-quality notebooks, pens,
-                    calculators, and more. Perfect for students and
-                    professionals.
-                  </p>
+                  <h3 className="text-xl font-bold">{t("stationery1.title")}</h3>
+                  <p className="text-sm sm:text-md">{t("stationery1.desc")}</p>
                 </div>
               </div>
             </CarouselItem>
 
             {/* Biscuits */}
-            <CarouselItem className="md:basis-1/2 lg:basis-1/2 w-[300px] p-1 bg-green-400 h-[500px] rounded-2xl">
+            <CarouselItem className="basis-full sm:basis-1/2 md:basis-1/3 p-1 bg-green-400 h-[450px] sm:h-[500px] rounded-2xl">
               <div
                 style={{ backgroundImage: `url('/images/biscuits.jpg')` }}
                 className="relative h-full w-full bg-cover bg-center rounded-2xl"
               >
-                <div className="absolute bottom-0 left-0 right-0 h-[140px] bg-black/60 text-white p-4 rounded-b-2xl">
-                  <h3 className="text-xl font-bold">Biscuits</h3>
-                  <p className="text-md">
-                    Crunchy, sweet, and savory biscuits from top brands
-                    delivered fresh to your home.
-                  </p>
+                <div className="absolute h-[140px] bottom-0 left-0 right-0 bg-black/60 text-white p-4 rounded-b-2xl">
+                  <h3 className="text-xl font-bold">{t("biscuits.title")}</h3>
+                  <p className="text-sm sm:text-md">{t("biscuits.desc")}</p>
                 </div>
               </div>
             </CarouselItem>
 
             {/* Juices */}
-            <CarouselItem className="md:basis-1/2 lg:basis-1/2 w-[300px] p-1 bg-gray-400 h-[500px] rounded-2xl">
+            <CarouselItem className="basis-full sm:basis-1/2 md:basis-1/3 p-1 bg-gray-400 h-[450px] sm:h-[500px] rounded-2xl">
               <div
                 style={{ backgroundImage: `url('/images/juices.jpg')` }}
                 className="relative h-full w-full bg-cover bg-center rounded-2xl"
               >
                 <div className="absolute h-[140px] bottom-0 left-0 right-0 bg-black/60 text-white p-4 rounded-b-2xl">
-                  <h3 className="text-xl font-bold">Juices</h3>
-                  <p className="text-md">
-                    Refresh your day with a wide range of fruit juices and
-                    health drinks — sealed, chilled, and delivered quickly.
-                  </p>
+                  <h3 className="text-xl font-bold">{t("juices.title")}</h3>
+                  <p className="text-sm sm:text-md">{t("juices.desc")}</p>
                 </div>
               </div>
             </CarouselItem>
 
             {/* Vegetables */}
-            <CarouselItem className="md:basis-1/2 lg:basis-1/2 w-[300px] p-1 bg-yellow-500 h-[500px] rounded-2xl">
+            <CarouselItem className="basis-full sm:basis-1/2 md:basis-1/3 p-1 bg-yellow-500 h-[450px] sm:h-[500px] rounded-2xl">
               <div
                 style={{ backgroundImage: `url('/images/vegetables.png')` }}
                 className="relative h-full w-full bg-cover bg-center rounded-2xl"
               >
                 <div className="absolute h-[140px] bottom-0 left-0 right-0 bg-black/60 text-white p-4 rounded-b-2xl">
-                  <h3 className="text-lg font-bold">Vegetables</h3>
-                  <p className="text-md">
-                    Farm-fresh vegetables sourced locally and delivered within
-                    minutes. No compromise on quality.
-                  </p>
+                  <h3 className="text-lg font-bold">{t("vegetables.title")}</h3>
+                  <p className="text-sm sm:text-md">{t("vegetables.desc")}</p>
                 </div>
               </div>
             </CarouselItem>
 
             {/* Home Cleaning */}
-            <CarouselItem className="md:basis-1/2 lg:basis-1/2 w-[300px] p-1 bg-green-500 h-[500px] rounded-2xl">
+            <CarouselItem className="basis-full sm:basis-1/2 md:basis-1/3 p-1 bg-green-500 h-[450px] sm:h-[500px] rounded-2xl">
               <div
                 style={{ backgroundImage: `url('/images/cleaning.jpg')` }}
                 className="relative h-full w-full bg-cover bg-center rounded-2xl"
               >
                 <div className="absolute h-[140px] bottom-0 left-0 right-0 bg-black/60 text-white p-4 rounded-b-2xl">
-                  <h3 className="text-xl font-bold">Home Cleaning</h3>
-                  <p className="text-md">
-                    Everything you need to keep your home sparkling clean —
-                    mops, brushes, detergents, and disinfectants.
-                  </p>
+                  <h3 className="text-xl font-bold">{t("cleaning.title")}</h3>
+                  <p className="text-sm sm:text-md">{t("cleaning.desc")}</p>
                 </div>
               </div>
             </CarouselItem>
 
             {/* Stationery 2 */}
-            <CarouselItem className="md:basis-1/2 lg:basis-1/2 w-[300px] p-1 bg-pink-500 h-[500px] rounded-2xl">
+            <CarouselItem className="basis-full sm:basis-1/2 md:basis-1/3 p-1 bg-pink-500 h-[450px] sm:h-[500px] rounded-2xl">
               <div
                 style={{ backgroundImage: `url('/images/stationary.jpg')` }}
                 className="relative h-full w-full bg-cover bg-center rounded-2xl"
               >
                 <div className="absolute h-[140px] bottom-0 left-0 right-0 bg-black/60 text-white p-4 rounded-b-2xl">
-                  <h3 className="text-lg font-bold">Stationery</h3>
-                  <p className="text-md">
-                    From daily school supplies to office tools — find everything
-                    at one place, fast and affordable.
-                  </p>
+                  <h3 className="text-lg font-bold">{t("stationery2.title")}</h3>
+                  <p className="text-sm sm:text-md">{t("stationery2.desc")}</p>
                 </div>
               </div>
             </CarouselItem>
           </CarouselContent>
 
-          <CarouselPrevious className="p-10" />
-          <CarouselNext className="p-10" />
+          <CarouselPrevious className="p-10 sm:p-6 rounded-full" />
+          <CarouselNext className="p-10 sm:p-6 rounded-full" />
         </Carousel>
       </div>
 
-      <div className="flex flex-col items-center px-5">
-        <h1 className="text-7xl font-bold text-black">
-          Discover GreenCart's wide <br className="hidden md:inline" />
-          <span className="text-blue-500">Product Range</span>{" "}
+      {/* Right: Text Section */}
+      <div className="w-full lg:w-1/3 px-2 sm:px-6 text-center lg:text-left">
+        <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold text-black">
+          {t("heading.title")}
+          <br className="hidden md:inline" />
+          <span className="text-blue-500">{t("heading.highlight")}</span>
         </h1>
-        <p className="text-[20px] py-5 font-semibold">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-          veritatis, incidunt aliquam voluptatem explicabo deleniti quidem
-          cupiditate beatae voluptatum accusamus rerum,
-          <br /> aut enim officia praesentium illum, porro ratione assumenda.
-          Atque.
+        <p className="text-base sm:text-lg md:text-xl py-5 font-semibold">
+          {t("description")}
         </p>
       </div>
     </div>

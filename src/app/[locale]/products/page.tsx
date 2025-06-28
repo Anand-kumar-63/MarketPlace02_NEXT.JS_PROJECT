@@ -1,98 +1,60 @@
 "use client";
 import React from "react";
+import { useTranslations } from "next-intl";
 
 const products = [
-  {
-    title: "Fruits & Vegetables",
-    description:
-      "Fresh from local farms — tomatoes, bananas, greens, and more.",
-    items: "2 items",
-    image: "/images/vegetables.png",
-    bg: "bg-orange-100",
-  },
-  {
-    title: "Meat & Fish",
-    description:
-      "Locally sourced meats and fresh fish, cleaned and packed hygienically.",
-    items: "15 items",
-    image: "/images/meat.jpg",
-    bg: "bg-rose-100",
-  },
-  {
-    title: "Cooking Essentials",
-    description:
-      "Atta, rice, oils, spices, and all your kitchen basics in one place.",
-    items: "252 items",
-    image: "/images/utensils.png",
-    bg: "bg-blue-100",
-  },
-  {
-    title: "Beverages",
-    description: "Cold drinks, juices, energy drinks — stay refreshed anytime.",
-    items: "35 items",
-    image: "/images/juices.jpg",
-    bg: "bg-yellow-100",
-  },
-  {
-    title: "Home Cleaning",
-    description:
-      "Everything to keep your home sparkling — mops, brushes, disinfectants.",
-    items: "80 items",
-    image: "/images/cleaning.jpg",
-    bg: "bg-green-100",
-  },
-  {
-    title: "Stationery & Office",
-    description:
-      "School and office supplies — from notebooks to pens and more.",
-    items: "62 items",
-    image: "/images/stationary.jpg",
-    bg: "bg-pink-100",
-  },
+  { image: "/images/vegetables.png", bg: "bg-orange-100" },
+  { image: "/images/meat.jpg", bg: "bg-rose-100" },
+  { image: "/images/utensils.png", bg: "bg-blue-100" },
+  { image: "/images/juices.jpg", bg: "bg-yellow-100" },
+  { image: "/images/cleaning.jpg", bg: "bg-green-100" },
+  { image: "/images/stationary.jpg", bg: "bg-pink-100" }
 ];
 
 export default function ProductsPage() {
+  const t = useTranslations("ProductsPage");
+
   return (
-      <section className="py-16 px-4 bg-gradient-to-br from-green-50 to-blue-50">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-10 text-gray-900">
-            Explore Our Product Categories
-          </h2>
+    <section className="py-12 sm:py-16 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-green-100 to-blue-200">
+      <div className="max-w-7xl mx-auto">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-8 sm:mb-10 text-gray-900">
+          {t("heading")}
+        </h2>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            {products.map((product, idx) => (
-              <div
-                key={idx}
-                className={`rounded-2xl p-6 shadow-md hover:shadow-lg transition-all ${product.bg}`}
-              >
-                <div
-                  className="w-full h-56 bg-cover bg-center rounded-xl mb-4"
-                  style={{ backgroundImage: `url(${product.image})` }}
-                ></div>
-                <h3 className="text-xl font-semibold text-gray-800">
-                  {product.title}
-                </h3>
-                <p className="text-gray-600 text-sm mt-2">
-                  {product.description}
-                </p>
-                <p className="mt-2 text-sm text-green-600 font-medium">
-                  {product.items}
-                </p>
-              </div>
-            ))}
-          </div>
-
-          <div className="mt-16 text-center">
-            <a
-              href="https://wa.me/919588508988"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block bg-green-600 text-white font-semibold py-3 px-6 rounded-full text-lg hover:bg-green-700 transition"
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+          {products.map((product, idx) => (
+            <div
+              key={idx}
+              className={`rounded-2xl p-5 sm:p-6 shadow-md hover:shadow-lg transition-all ${product.bg}`}
             >
-              Order Now on WhatsApp
-            </a>
-          </div>
+              <div
+                className="w-full h-48 sm:h-56 bg-cover bg-center rounded-xl mb-4"
+                style={{ backgroundImage: `url(${product.image})` }}
+              ></div>
+              <h3 className="text-lg sm:text-xl font-semibold text-gray-800">
+                {t(`products.${idx}.title`)}
+              </h3>
+              <p className="text-gray-600 text-sm sm:text-base mt-1.5">
+                {t(`products.${idx}.description`)}
+              </p>
+              <p className="mt-2 text-sm sm:text-base text-green-600 font-medium">
+                {t(`products.${idx}.items`)}
+              </p>
+            </div>
+          ))}
         </div>
-      </section>
+
+        <div className="mt-12 sm:mt-16 text-center">
+          <a
+            href="https://wa.me/919588508988"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-green-600 text-white font-semibold py-2.5 sm:py-3 px-6 rounded-full text-base sm:text-lg hover:bg-green-700 transition"
+          >
+            {t("buttonText")}
+          </a>
+        </div>
+      </div>
+    </section>
   );
 }

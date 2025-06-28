@@ -19,12 +19,10 @@
     "i18next": "^25.2.1",
     "lucide-react": "^0.523.0",
     "next": "15.3.4",
-    "next-i18n-router": "^5.5.2",
     "next-intl": "^4.3.1",
     "postcss": "^8.5.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-i18next": "^15.5.3",
     "react-icons": "^5.5.0",
     "tailwind-merge": "^3.3.1",
     "zod": "^3.25.67"
