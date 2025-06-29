@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="bg-blue-100 text-gray-800 font-sans px-4 sm:px-6 py-10">
       <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8 text-center md:text-left">
         {/* Service Area */}
-        <div className="bg-white shadow-md p-4 sm:p-5 rounded-xl border border-blue-50">
+        <div className="bg-blue-100 p-4 sm:p-5 rounded-xl border border-blue-50">
           <h3 className="text-base sm:text-lg font-semibold text-green-600 mb-2">
             📍 Service Area
           </h3>
@@ -19,19 +19,19 @@ const Footer = () => {
         </div>
 
         {/* Social Media */}
-        <div className="bg-white shadow-md p-4 sm:p-5 rounded-xl border border-blue-50">
+        <div className="bg-blue-100 p-4 sm:p-5 rounded-xl border border-blue-50">
           <h3 className="text-base sm:text-lg font-semibold text-green-600 mb-2">
             📱 Follow Us
           </h3>
           <p className="text-sm sm:text-base">
             📸{" "}
             <a
-              href="https://instagram.com/KiranaJet_Hodal"
+              href="https://instagram.com/KiranaJet_"
               target="_blank"
               rel="noopener noreferrer"
               className="text-blue-600 hover:underline"
             >
-              @KiranaJet_Hodal
+              @KiranaJet_
             </a>
             <br />
             👍{" "}
@@ -47,7 +47,7 @@ const Footer = () => {
         </div>
 
         {/* About */}
-        <div className="bg-white shadow-md p-4 sm:p-5 rounded-xl border border-blue-50">
+        <div className="bg-blue-100 p-4 sm:p-5 rounded-xl border border-blue-50">
           <h3 className="text-base sm:text-lg font-semibold text-green-600 mb-2">
             🏡 About Us
           </h3>

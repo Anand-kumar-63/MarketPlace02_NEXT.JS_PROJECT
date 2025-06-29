@@ -17,6 +17,7 @@ const Page = () => {
       {/* hero section */}
       <section className="flex mt-10 bg-gray-200 font-sans bg-[url('/images/Shop.jpg')] bg-cover bg-center min-h-[84vh]">
         <div className="w-full bg-gradient-to-r from-transparent via-black/40 to-black/50">
+       
           <div className="flex flex-col items-start justify-center gap-4 w-full max-w-screen-xl mx-auto h-full px-4 sm:px-8 md:px-12 lg:px-16 py-8">
             <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white">
               {translate("HeroSection.title")}
@@ -24,7 +25,7 @@ const Page = () => {
               <span className="text-blue-500">
                 {translate("HeroSection.highlight")}
               </span>
-            </h1>
+            </h1> 
 
             <Button
               onClick={() =>
@@ -39,6 +40,14 @@ const Page = () => {
               </span>
             </Button>
           </div>
+
+
+          <div className="h-20 w-20 bg-gray-400">
+            <div className="h-10 w-10 bg-cover bg-center"
+            style={{backgroundImage:`url('/images/WomenCart.png')`}}></div>
+          </div>
+
+
         </div>
       </section>
 

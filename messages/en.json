@@ -4,7 +4,7 @@
     "highlight": "Bliss With Kirana Jet",
     "button_heading": "Shop Now",
     "button_subtext": "Through WhatsApp!"
-  },  
+  },
   "HowItWorks": {
     "heading": "How It Works",
     "subheading": "With Kirana Jet, shopping in Hodal is as simple as sending a message. No apps, no queues — just pure convenience delivered to your doorstep.",
@@ -14,7 +14,7 @@
     },
     "step2": {
       "title": "Send via WhatsApp",
-      "description": "Just send your list to <span class='text-green-600 font-semibold'>95885XXXXX</span> on WhatsApp. No app downloads, no logins — fast, direct, and user-friendly."
+      "description": "Just send your list to <span class='text-green-600 font-semibold'> 9588 508 988</span> on WhatsApp. No app downloads, no logins — fast, direct, and user-friendly."
     },
     "step3": {
       "title": "Fast Home Delivery",
@@ -32,7 +32,7 @@
     "contact": "Contact Us",
     "address": "Your City Name, Local Area",
     "email": "support@kirana-jet.in",
-    "phone": "+91 98765 43210"
+    "phone": "+91 9588 508 988"
   },
   "About": {
     "heading": "About kiranajet",
@@ -56,7 +56,7 @@
     "description": "Have questions or suggestions? We’re here to help. Reach us directly or send us a message using the form below.",
     "phone": {
       "title": "Phone",
-      "value": "+91 98765 43210"
+      "value": "+91 9588 508 955"
     },
     "email": {
       "title": "Email",
@@ -64,7 +64,7 @@
     },
     "instagram": {
       "title": "Instagram",
-      "value": "@KiranaJet_hodal"
+      "value": "@KiranaJet_"
     },
     "whatsappCta": "Chat with Us on WhatsApp",
     "form": {
@@ -81,34 +81,62 @@
     "heading": "Explore Our Product Categories",
     "products": [
       {
+        "title": "Dry Fruits",
+        "description": "Premium almonds, cashews, raisins & more — great for snacks, gifts, and energy boosts.",
+        "items": "12 items",
+        "availability": "(Item is available)"
+      },
+      {
+        "title": "Pulses",
+        "description": "Wholesome lentils like Toor, Moong, Masoor, and more — fresh, pure, and perfect for daily cooking.",
+        "items": "14",
+        "availability": "(Item is available)"
+      },
+      {
+        "title": "Spices",
+        "description": "Turmeric, chili, coriander, and garam masala — essential flavors for every kitchen.",
+        "items": "30 items",
+        "availability": "(Item is available)"
+      },
+      {
+        "title": "Cooking Oil",
+        "description": "Everyday essentials like mustard, refined, and other oils.",
+        "items": "12 items",
+        "availability": "Item is available"
+      },
+      {
         "title": "Fruits & Vegetables",
         "description": "Fresh from local farms — tomatoes, bananas, greens, and more.",
-        "items": "2 items"
+        "items": "2 items",
+        "availability": "(Item will available soon)"
       },
       {
         "title": "Cooking Essentials",
         "description": "Atta, rice, oils, spices, and all your kitchen basics in one place.",
-        "items": "252 items"
+        "items": "252 items",
+        "availability": "(Item will available soon)"
       },
       {
         "title": "Beverages",
         "description": "Cold drinks, juices, energy drinks — stay refreshed anytime.",
-        "items": "35 items"
+        "items": "35 items",
+        "availability": "(Item is available)"
       },
       {
         "title": "Home Cleaning",
         "description": "Everything to keep your home sparkling — mops, brushes, disinfectants.",
-        "items": "80 items"
+        "items": "80 items",
+        "availability": "(Item is available )"
       },
       {
         "title": "Stationery & Office",
         "description": "School and office supplies — from notebooks to pens and more.",
-        "items": "62 items"
+        "items": "62 items",
+        "availability": "(Item will available soon)"
       }
     ],
     "buttonText": "Order Now on WhatsApp"
-  }
-,
+  },
   "TransformSection": {
     "heading": "Transform Your",
     "subheading": "Shopping with Quality",
@@ -116,62 +144,86 @@
       "line1": "Experience the easiest way to shop for your daily essentials.",
       "line2": "Fast delivery, trusted stores, and zero hassle."
     }
-  }
-,
+  },
   "WideRange": {
     "heading": {
-      "title": "Discover KiranaJet wide",
+      "title": "Kirana Jet's Wide",
       "highlight": "Product Range"
     },
-    "description": "At KiranaJet, we bring you an extensive selection of everyday essentials — all at your fingertips. Whether it's fresh fruits and vegetables, household cleaning supplies, school stationery, or your favorite snacks, we’ve curated everything from trusted local Hodal stores to serve you better.",
+    "description": "Kirana Jet brings you a comprehensive range of daily essentials — now at your fingertips. From fresh vegetables and fruits, home cleaning products, school stationery, to your favorite snacks — everything is carefully chosen from trusted local Hodal stores.",
+    "Dry Fruits": {
+      "title": "Dry Fruits",
+      "desc": "Premium dry fruits like cashews, almonds, and raisins – ideal for healthy snacking and gifting.",
+      "availability": "Item is available"
+    },
+    "Pulses": {
+      "title": "Pulses",
+      "desc": "Pure and fresh pulses like arhar, moong, and masoor — perfect for daily meals.",
+      "availability": "Item is available"
+    },
+    "Spices": {
+      "title": "Spices",
+      "desc": "Turmeric, chili, coriander, and garam masala — essentials for flavor and aroma in every kitchen.",
+      "availability": "Item is available"
+    },
+    "Cooking oil": {
+      "title": "Cooking Oil",
+      "desc": "Mustard, refined, and other oils for daily cooking needs.",
+      "availability": "Item is available"
+    },
     "stationery1": {
       "title": "Stationery",
-      "desc": "Organize your workspace with high-quality notebooks, pens, calculators, and more."
+      "desc": "Organize your workspace with high-quality notebooks, pens, calculators, and more.",
+      "availability": "Item will be available soon"
     },
     "biscuits": {
       "title": "Biscuits",
-      "desc": "Crunchy, sweet, and savory biscuits from top brands delivered fresh."
+      "desc": "Delicious and crunchy biscuits delivered fresh from top brands.",
+      "availability": "Item is available"
     },
     "juices": {
       "title": "Juices",
-      "desc": "Refresh your day with fruit juices and health drinks."
+      "desc": "Refresh your day with fruit juices and health drinks.",
+      "availability": "Item is available"
     },
     "vegetables": {
       "title": "Vegetables",
-      "desc": "Farm-fresh vegetables sourced locally and delivered quickly."
+      "desc": "Locally sourced fresh vegetables with fast delivery.",
+      "availability": "Item will be available soon"
     },
     "cleaning": {
-      "title": "Home Cleaning",
-      "desc": "Keep your home clean with mops, detergents, and disinfectants."
+      "title": "Cleaning Products",
+      "desc": "Keep your home clean and safe with brooms, detergents, and disinfectants.",
+      "availability": "Item is available"
     },
     "stationery2": {
       "title": "Stationery",
-      "desc": "Daily school supplies to office tools — all in one place."
+      "desc": "Everyday school and office essentials — all in one place.",
+      "availability": "Item will be available soon"
     }
   },
-"WhyChoose": {
-  "heading1": "Why Choose",
-  "brand": "KiranaJet?",
-  "subtext1": "Experience convenience and reliability",
-  "subtext2": "like never before. Here's why Hodal trusts us:",
-  "features": [
-    {
-      "title": "WhatsApp Ordering Made Easy",
-      "description": "No complex apps needed — just WhatsApp your list and we’ll deliver it! Fast, simple, and user-friendly for Hodal residents."
-    },
-    {
-      "title": "Trusted Local Hodal Stores",
-      "description": "We proudly serve Hodal by sourcing directly from your favorite local kirana stores — ensuring freshness and authenticity in every order."
-    },
-    {
-      "title": "Fast Delivery – Within 20 Minutes",
-      "description": "We know Hodal's streets and shops like home. That’s why your essentials reach your doorstep in a flash — with no hidden charges."
-    },
-    {
-      "title": "Wide Product Range for Every Home",
-      "description": "From groceries to household items, KiranaJet covers all your daily needs in Hodal with care, quality, and convenience."
-    }
-  ]}  
-
-
+  "WhyChoose": {
+    "heading1": "Why Choose",
+    "brand": "KiranaJet?",
+    "subtext1": "Experience convenience and reliability",
+    "subtext2": "like never before. Here's why Hodal trusts us:",
+    "features": [
+      {
+        "title": "WhatsApp Ordering Made Easy",
+        "description": "No complex apps needed — just WhatsApp your list and we’ll deliver it! Fast, simple, and user-friendly for Hodal residents."
+      },
+      {
+        "title": "Trusted Local Hodal Stores",
+        "description": "We proudly serve Hodal by sourcing directly from your favorite local kirana stores — ensuring freshness and authenticity in every order."
+      },
+      {
+        "title": "Fast Delivery – Within 20 Minutes",
+        "description": "We know Hodal's streets and shops like home. That’s why your essentials reach your doorstep in a flash — with no hidden charges."
+      },
+      {
+        "title": "Wide Product Range for Every Home",
+        "description": "From groceries to household items, KiranaJet covers all your daily needs in Hodal with care, quality, and convenience."
+      }
+    ]
+  }
 }
