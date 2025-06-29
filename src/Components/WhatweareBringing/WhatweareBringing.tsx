@@ -2,7 +2,7 @@
 import React from 'react';
 import { useTranslations } from 'next-intl';
 
-export default function TransformSection() {
+export default function   TransformSection() {
   const translate = useTranslations('TransformSection');
 
   return (

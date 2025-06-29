@@ -86,11 +86,6 @@
         "items": "2 items"
       },
       {
-        "title": "Meat & Fish",
-        "description": "Locally sourced meats and fresh fish, cleaned and packed hygienically.",
-        "items": "15 items"
-      },
-      {
         "title": "Cooking Essentials",
         "description": "Atta, rice, oils, spices, and all your kitchen basics in one place.",
         "items": "252 items"
@@ -128,7 +123,7 @@
       "title": "Discover KiranaJet wide",
       "highlight": "Product Range"
     },
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veritatis, incidunt aliquam voluptatem explicabo deleniti quidem cupiditate beatae voluptatum accusamus rerum, aut enim officia praesentium illum, porro ratione assumenda. Atque.",
+    "description": "At KiranaJet, we bring you an extensive selection of everyday essentials — all at your fingertips. Whether it's fresh fruits and vegetables, household cleaning supplies, school stationery, or your favorite snacks, we’ve curated everything from trusted local Hodal stores to serve you better.",
     "stationery1": {
       "title": "Stationery",
       "desc": "Organize your workspace with high-quality notebooks, pens, calculators, and more."

@@ -4,7 +4,6 @@ import { useTranslations } from "next-intl";
 
 const products = [
   { image: "/images/vegetables.png", bg: "bg-orange-100" },
-  { image: "/images/meat.jpg", bg: "bg-rose-100" },
   { image: "/images/utensils.png", bg: "bg-blue-100" },
   { image: "/images/juices.jpg", bg: "bg-yellow-100" },
   { image: "/images/cleaning.jpg", bg: "bg-green-100" },
