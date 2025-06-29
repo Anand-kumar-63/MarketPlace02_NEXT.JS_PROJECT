@@ -29,7 +29,7 @@ const WideRange = () => {
                   <h3 className="text-lg font-bold">{t("Pulses.title")}</h3>
                   <p className="text-sm sm:text-md">{t("Pulses.desc")}</p>
                   <p className="text-lg sm:text-md text-yellow-200">
-                    "{t(`Pulses.availability`)}"
+                    {t(`Pulses.availability`)}
                   </p>
                 </div>
               </div>
@@ -46,7 +46,7 @@ const WideRange = () => {
                   </h3>
                   <p className="text-sm sm:text-md">{t("Cooking oil.desc")}</p>
                   <p className="text-lg sm:text-md text-yellow-200">
-                    "{t(`Cooking oil.availability`)}"
+                    {t(`Cooking oil.availability`)}
                   </p>
                 </div>
               </div>
@@ -61,7 +61,7 @@ const WideRange = () => {
                   <h3 className="text-lg font-bold">{t("Spices.title")}</h3>
                   <p className="text-sm sm:text-md">{t("Spices.desc")}</p>
                   <p className="text-lg sm:text-md text-yellow-200">
-                    "{t(`Spices.availability`)}"
+                    {t(`Spices.availability`)}
                   </p>
                 </div>
               </div>
@@ -76,7 +76,7 @@ const WideRange = () => {
                   <h3 className="text-lg font-bold">{t("vegetables.title")}</h3>
                   <p className="text-sm sm:text-md">{t("vegetables.desc")}</p>
                   <p className="text-lg sm:text-md text-yellow-200">
-                    "{t(`vegetables.availability`)}"
+                    {t(`vegetables.availability`)}
                   </p>
                 </div>
               </div>
@@ -92,7 +92,7 @@ const WideRange = () => {
                   <h3 className="text-xl font-bold">{t("biscuits.title")}</h3>
                   <p className="text-sm sm:text-md">{t("biscuits.desc")}</p>
                   <p className="text-lg sm:text-md text-yellow-200">
-                    "{t(`biscuits.availability`)}"
+                    {t(`biscuits.availability`)}
                   </p>
                 </div>
               </div>
@@ -108,7 +108,7 @@ const WideRange = () => {
                   <h3 className="text-xl font-bold">{t("juices.title")}</h3>
                   <p className="text-sm sm:text-md">{t("juices.desc")}</p>
                   <p className="text-lg sm:text-md text-yellow-200">
-                    "{t(`juices.availability`)}"
+                    {t(`juices.availability`)}
                   </p>
                 </div>
               </div>
@@ -124,7 +124,7 @@ const WideRange = () => {
                   <h3 className="text-xl font-bold">{t("cleaning.title")}</h3>
                   <p className="text-sm sm:text-md">{t("cleaning.desc")}</p>
                   <p className="text-lg sm:text-md text-yellow-200">
-                    "{t(`cleaning.availability`)}"
+                    {t(`cleaning.availability`)}
                   </p>
                 </div>
               </div>
@@ -142,7 +142,7 @@ const WideRange = () => {
                   </h3>
                   <p className="text-sm sm:text-md">{t("stationery2.desc")}</p>
                   <p className="text-lg sm:text-md text-yellow-200">
-                    "{t(`stationery2.availability`)}"
+                    {t(`stationery2.availability`)}
                   </p>
                 </div>
               </div>
