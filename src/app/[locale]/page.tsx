@@ -1,17 +1,13 @@
 "use client";
 import React from "react";
-import { Button } from "@/Components/ui/button";
 import HeroSection from "@/Components/HeroSection/HeroSection";
 import Footer from "@/Components/Footer/Footer";
 import WhyChooseSection from "@/Components/WhyChooseUs/WhyChooseus";
 import WideRange from "@/Components/WideRange/WideRange";
 import HowItWorks from "@/Components/HowitWorks/HowitWorks";
-import { useTranslations } from "next-intl";
 import TransformSection from "@/Components/WhatweareBringing/WhatweareBringing";
 
 const Page = () => {
-  const translate = useTranslations();
-
   return (
     <>
       {/* hero section */}
