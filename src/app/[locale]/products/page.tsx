@@ -1,18 +1,20 @@
 "use client";
 import React from "react";
 import { useTranslations } from "next-intl";
-
 const products = [
+  { image: "/images/BeautyProducts.jpg", bg: "bg-pink-100" },
   { image: "/images/dryfruits.jpg", bg: "bg-pink-100" },
   { image: "/images/pulses.jpg", bg: "bg-blue-100" },
   { image: "/images/spices.jpg", bg: "bg-gray-100" },
-  {image:"/images/Cookingoil.jpg" ,bg:"bg-pink-100"},
+  { image: "/images/Cookingoil.jpg", bg: "bg-pink-100" },
   { image: "/images/vegetables.png", bg: "bg-orange-100" },
   { image: "/images/utensils.png", bg: "bg-blue-100" },
   { image: "/images/juices.jpg", bg: "bg-yellow-100" },
   { image: "/images/cleaning.jpg", bg: "bg-green-100" },
   { image: "/images/stationary.jpg", bg: "bg-pink-100" },
-];
+ 
+  ];
+
 export default function ProductsPage() {
   const t = useTranslations("ProductsPage");
   return (

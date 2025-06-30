@@ -20,6 +20,26 @@ const WideRange = () => {
         <Carousel className="rounded-2xl transition-all duration-200">
           <CarouselContent className="flex flex-row gap-6 sm:gap-8 md:gap-10">
             {/* pulses */}
+
+            <CarouselItem className="basis-full sm:basis-1/2 md:basis-1/3 p-1 bg-pink-500 h-[450px] sm:h-[500px] rounded-2xl">
+              <div
+                style={{ backgroundImage: `url('/images/BeautyProducts.jpg')` }}
+                className="relative h-full w-full bg-cover bg-center rounded-2xl"
+              >
+                <div className="absolute h-[140px] bottom-0 left-0 right-0 bg-black/60 text-white p-4 rounded-b-2xl">
+                  <h3 className="text-lg font-bold">
+                    {t("Beauty Products.title")}
+                  </h3>
+                  <p className="text-sm sm:text-md">
+                    {t("Beauty Products.desc")}
+                  </p>
+                  <p className="text-lg sm:text-md text-yellow-200">
+                    {t(`Beauty Products.availability`)}
+                  </p>
+                </div>
+              </div>
+            </CarouselItem>
+
             <CarouselItem className="basis-full sm:basis-1/2 md:basis-1/3 p-1 bg-blue-500 h-[450px] sm:h-[500px] rounded-2xl">
               <div
                 style={{ backgroundImage: `url('/images/pulses.jpg')` }}

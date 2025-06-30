@@ -26,22 +26,18 @@ export default function TransformSection() {
         <div className="flex flex-col md:flex-row w-[250px] md:w-auto justify-center items-center gap-6 px-4 sm:px-10 md:px-16">
        
           <div
-            className="h-48 sm:h-64 md:h-[300px] w-full sm:w-[450px] bg-amber-200 rounded-2xl bg-cover bg-center border-4 border-white"
-            style={{ backgroundImage: `url('/images/trust.jpg')` }}
+            className="h-48 sm:h-64 md:h-[400px] w-full sm:w-[450px] bg-amber-200 rounded-2xl bg-cover bg-center border-4 border-white"
+            style={{ backgroundImage: `url('/images/transform1.jpg')` }}
           ></div>
 
           <div className="grid grid-cols-1 w-full md:w-auto gap-6">
             <div
-              className="h-40 sm:h-52 md:h-[250px] w-full sm:w-[280px] bg-cover bg-center rounded-2xl border-4 border-white"
-              style={{ backgroundImage: `url('/images/deliveryone.jpg')` }}
+              className="h-40 sm:h-52 md:h-[350px] w-full sm:w-[380px] bg-cover bg-top rounded-2xl border-4 border-white"
+              style={{ backgroundImage: `url('/images/kirana2.png')` }}
             ></div>
 
-            <div className="bg-gray-300 h-32 sm:h-44 md:h-[180px] w-full sm:w-[280px] flex justify-center items-center rounded-2xl px-2 border-4 border-white">
-              <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold text-center">
-                Kirana
-                <br />
-                <span className="text-green-500">Jet</span>
-              </h1>
+            <div className="bg-gray-300 bg-cover bg-center scale-102  h-32 sm:h-44 md:h-[200px] w-full sm:w-[380px] flex justify-center items-center rounded-2xl px-2 border-4 border-white"
+            style={{ backgroundImage: `url('/images/kirana3.png')`}}>
             </div>
           </div>
         </div>

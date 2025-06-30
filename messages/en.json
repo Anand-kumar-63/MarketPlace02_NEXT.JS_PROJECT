@@ -56,11 +56,11 @@
     "description": "Have questions or suggestions? We’re here to help. Reach us directly or send us a message using the form below.",
     "phone": {
       "title": "Phone",
-      "value": "+91 9588 508 955"
+      "value": "+91 9588 508 988"
     },
     "email": {
       "title": "Email",
-      "value": "admin@KiranaJet.in"
+      "value": "kiranajetcustomersupport@gmail.com"
     },
     "instagram": {
       "title": "Instagram",
@@ -80,6 +80,12 @@
   "ProductsPage": {
     "heading": "Explore Our Product Categories",
     "products": [
+      {
+        "title": "Beauty Products",
+        "description": "Creams, facewash, shampoo, and perfumes — essentials for every beauty routine.",
+        "items": "30 items",
+        "availability": "(Item is available)"
+      },
       {
         "title": "Dry Fruits",
         "description": "Premium almonds, cashews, raisins & more — great for snacks, gifts, and energy boosts.",
@@ -151,6 +157,11 @@
       "highlight": "Product Range"
     },
     "description": "Kirana Jet brings you a comprehensive range of daily essentials — now at your fingertips. From fresh vegetables and fruits, home cleaning products, school stationery, to your favorite snacks — everything is carefully chosen from trusted local Hodal stores.",
+    "Beauty Products": {
+      "title": "Beauty Products",
+      "desc": "Creams, facewash, shampoo, and perfumes — essentials for every beauty routine.",
+      "availability": "Item is available"
+    },
     "Dry Fruits": {
       "title": "Dry Fruits",
       "desc": "Premium dry fruits like cashews, almonds, and raisins – ideal for healthy snacking and gifting.",

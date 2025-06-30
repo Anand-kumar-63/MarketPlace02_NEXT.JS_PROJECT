@@ -12,6 +12,7 @@ export default function ContactUs() {
   const t = useTranslations("Contact");
 
   return (
+    
     <section className="bg-gradient-to-br from-blue-50 to-green-50 py-10 px-4 sm:px-6 lg:px-8">
       <div className="max-w-5xl mx-auto text-center">
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-gray-900 mb-6">
