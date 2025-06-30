@@ -22,7 +22,7 @@ const Page = () => {
               {translate("HeroSection.title")}
               <br className="hidden md:inline" />
               <span className="text-blue-500">
-                {translate("HeroSection.highlight")} <span className="text-yellow-400">{translate("HeroSection.StoreName")}</span>
+                {translate("HeroSection.highlight")}<span className="text-yellow-400">{translate("HeroSection.StoreName")}</span>
               </span>
             </h1>
 
