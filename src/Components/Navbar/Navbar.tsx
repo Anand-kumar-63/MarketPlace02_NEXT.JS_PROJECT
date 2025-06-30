@@ -65,7 +65,7 @@ const Navbar = () => {
       </div>
 
       {/* Right side (language and darkmode) */}
-      <div className="mt-8 sm:mt-0 flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-3">
+      <div className="mt-8 sm:mt-4 flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-3">
         <Select defaultValue={currentLocale} onValueChange={handleLocaleChange}>
           <SelectTrigger className="w-full sm:w-[180px] rounded-4xl text-md text-gray-700">
             <SelectValue placeholder="Change Language" />

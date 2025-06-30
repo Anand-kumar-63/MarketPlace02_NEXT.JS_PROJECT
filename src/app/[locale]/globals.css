@@ -130,3 +130,7 @@
 [data-slot="carousel-content"] {
   @apply rounded-2xl;
 }
+/* 
+* {
+  border: 1px solid black !important;
+} */

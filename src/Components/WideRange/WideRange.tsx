@@ -177,7 +177,7 @@ const WideRange = () => {
       {/* Right: Text Section */}
       <div className="w-full lg:w-1/3 px-2 sm:px-6 text-center lg:text-left">
         <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold text-black">
-          {t("heading.title")}
+          {t("heading.title")} <br />
           <br className="hidden md:inline" />
           <span className="text-blue-500">{t("heading.highlight")}</span>
         </h1>
