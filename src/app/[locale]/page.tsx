@@ -15,14 +15,14 @@ const Page = () => {
   return (
     <>
       {/* hero section */}
-      <section className="flex mt-10 bg-gray-200 font-sans bg-[url('/images/Shop.jpg')] bg-cover bg-center min-h-[84vh]">
+      <section className="flex mt-10 bg-gray-200 font-sans bg-[url('/images/HeroSection.jpg')] bg-cover bg-center min-h-[84vh]">
         <div className="w-full flex flex-row px-20 relative bg-gradient-to-r from-black/20 via-black/40 to-black/20">
           <div className="flex flex-col items-start justify-center gap-4 w-full max-w-screen-xl mx-auto h-full px-4 sm:px-8 md:px-12 lg:px-16 py-8">
             <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white">
               {translate("HeroSection.title")}
               <br className="hidden md:inline" />
               <span className="text-blue-500">
-                {translate("HeroSection.highlight")}
+                {translate("HeroSection.highlight")} <span className="text-yellow-400">{translate("HeroSection.StoreName")}</span>
               </span>
             </h1>
 
@@ -54,13 +54,13 @@ const Page = () => {
               <div className="absolute top-1/2 -translate-y-1/2 right-20 h-[559px] rounded-2xl w-[400px] bg-black/30 z-10"></div>
               <div className="absolute top-1/2 p-10 right-20 h-[459px] w-[400px] z-20">
                 <h1 className="font-semibold text-4xl text-white bg-gray-700/50 px-2 rounded-2xl">
-                  Super Fast <br />
-                  Home delivery
+                  {translate(`HeroSection.Video_div1_line1`)} <br />
+                  {translate(`HeroSection.Video_div1_line2`)} 
                   <br className="hidden md:inline" />
-                  <span className="text-blue-400">Absolutely Free!</span>
+                  <span className="text-blue-400">{translate(`HeroSection.Video_div1_line3`)} </span>
                 </h1>
                 <p className="mt-5 font-medium text-xl font-sans text-white rounded-2xl p-3 pr-10 bg-gray-700/50">
-                  No Minimum Order Limit!
+                  {translate(`HeroSection.Video_div2_line1`)} 
                 </p>
               </div>
             </div>

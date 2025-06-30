@@ -1,9 +1,14 @@
 {
   "HeroSection": {
     "title": "Redefine Shopping",
-    "highlight": "Bliss With Kirana Jet",
+    "highlight": "Bliss With",
+    "StoreName":"Kirana Jet",
     "button_heading": "Shop Now",
-    "button_subtext": "Through WhatsApp!"
+    "button_subtext": "Through WhatsApp!",
+    "Video_div1_line1":"Super Fast",
+    "Video_div1_line2":"Home Delivery",
+    "Video_div1_line3":"Absolutely Free!",
+    "Video_div2_line1":"No Minimum Order Limit!"
   },
   "HowItWorks": {
     "heading": "How It Works",
