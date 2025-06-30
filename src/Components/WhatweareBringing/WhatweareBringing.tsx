@@ -33,11 +33,11 @@ export default function TransformSection() {
           <div className="grid grid-cols-1 w-full md:w-auto gap-6">
             <div
               className="h-40 sm:h-52 md:h-[320px] w-full sm:w-[360px] bg-cover bg-top rounded-2xl border-4 border-white"
-              style={{ backgroundImage: `url('/images/kirana2.png')` }}
+              style={{ backgroundImage: `url('/images/Kirana2.png')` }}
             ></div>
 
             <div className="bg-gray-300 bg-cover bg-center scale-102  h-32 sm:h-44 md:h-[200px] w-full sm:w-[360px] flex justify-center items-center rounded-2xl px-2 border-4 border-white"
-            style={{ backgroundImage: `url('/images/kirana3.png')`}}>
+            style={{ backgroundImage: `url('/images/Kirana3.png')`}}>
             </div>
           </div>
         </div>
