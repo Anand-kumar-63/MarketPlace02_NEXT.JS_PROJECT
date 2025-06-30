@@ -18,11 +18,12 @@ const Page = () => {
       <section className="flex mt-10 bg-gray-200 font-sans bg-[url('/images/HeroSection.jpg')] bg-cover bg-center min-h-[84vh]">
         <div className="w-full flex flex-row px-20 relative bg-gradient-to-r from-black/20 via-black/40 to-black/20">
           <div className="flex flex-col items-start justify-center gap-4 w-full max-w-screen-xl mx-auto h-full px-4 sm:px-8 md:px-12 lg:px-16 py-8">
-            <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white">
+            <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-6xl font-bold text-white">
               {translate("HeroSection.title")}
               <br className="hidden md:inline" />
               <span className="text-blue-500">
-                {translate("HeroSection.highlight")}<span className="text-yellow-400">{translate("HeroSection.StoreName")}</span>
+                {translate("HeroSection.highlight")}
+                <span className="text-yellow-400 text-6xl">{translate("HeroSection.StoreName")}</span>
               </span>
             </h1>
 
