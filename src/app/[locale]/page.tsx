@@ -32,7 +32,7 @@ const Page = () => {
         <WhyChooseSection />
       </section>
       {/* Review  */}
-      <section className="flex flex-row bg-blue-200 md:w-full md:h-screen">
+      <section className="flex flex-row bg-blue-100 bg-linear-to-r from-blue-50 via-blue-100 to-blue-200 md:w-full md:h-screen">
         <Review />
       </section>
       {/* footer */}

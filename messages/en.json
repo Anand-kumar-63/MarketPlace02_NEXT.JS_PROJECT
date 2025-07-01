@@ -2,13 +2,13 @@
   "HeroSection": {
     "title": "Redefine Shopping",
     "highlight": "Bliss With",
-    "StoreName":" Kirana Jet",
+    "StoreName": " Kirana Jet",
     "button_heading": "Shop Now",
     "button_subtext": "Through WhatsApp!",
-    "Video_div1_line1":"Super Fast",
-    "Video_div1_line2":"Home Delivery",
-    "Video_div1_line3":"Absolutely Free!",
-    "Video_div2_line1":"No Minimum Order Limit!"
+    "Video_div1_line1": "Super Fast",
+    "Video_div1_line2": "Home Delivery",
+    "Video_div1_line3": "Absolutely Free!",
+    "Video_div2_line1": "No Minimum Order Limit!"
   },
   "HowItWorks": {
     "heading": "How It Works",
@@ -241,5 +241,59 @@
         "description": "From groceries to household items, KiranaJet covers all your daily needs in Hodal with care, quality, and convenience."
       }
     ]
+  },
+  "Review Section": {
+    "heading": "Some Reviews Given",
+    "subheading": " by Our Customers",
+    "Curousal-Content": {
+      "Review1": {
+        "name": "Rishi Raj Gupta",
+        "desc": "Super smooth experience! I was able to place my entire grocery order through WhatsApp within minutes, and the delivery arrived faster than I expected. The team was responsive and polite, and the products were fresh and neatly packed. Highly satisfied with the service!"
+      },
+      "Review2": {
+        "name": "Meghna Sorout",
+        "desc": "I was honestly surprised at how convenient it was to shop for all my household needs without even opening an app. Just a quick message and everything was taken care of! The delivery team was polite, and I got exactly what I ordered. Highly recommended for busy families."
+      },
+      "Review3": {
+        "name": "Vanshika Bhardvaj",
+        "desc": "Kirana Jet has made shopping from local shops so much easier.I no longer need to walk  around multiple stores to get what I need. Everything is just a message away. The best part is, they also keep you updated until your order arrives."
+      },
+      "Review4": {
+        "name": "Sarthak Chauhan",
+        "desc": "Affordable, reliable, and quick service . I placed an order late at night and still got a confirmation almost instantly. It’s great to see a platform so well integrated with local supply chains. I’ll definitely be a regular customer"
+      },
+      "Review5": {
+        "name": "Anand Kumar Singh",
+        "desc": "I was skeptical at first, but Kirana Jet really exceeded my expectations. The variety of items available is impressive and I love how you can support your neighborhood stores through this platform. Shopping feels personal again."
+      },
+      "Review6": {
+        "name": "Neha Gupta",
+        "desc": "Kirana Jet has made shopping from local shops so much easier.I no longer need to walk  around multiple stores to get what I need. Everything is just a message away. The best part is, they also keep you updated until your order arrives."
+      },
+        "Review7": {
+          "name": "Diksha Shukla",
+          "desc": "Very convenient service! Now I can order vegetables, groceries, and daily essentials from one place via WhatsApp. It saves me a lot of time, and delivery is always on time."
+        },
+        "Review8": {
+          "name": "Kavita Sorout",
+          "desc": "This platform has made my household shopping so much easier. No more going to the market for small items. It's a great way to support local shopkeepers too!"
+        },
+        "Review9": {
+          "name": "Manish Chauhan",
+          "desc": "The service is fast and reliable. I ordered some snacks and groceries and received everything within 30 minutes. The team is polite and helpful too."
+        },
+        "Review10": {
+          "name": "Kunal Shukla",
+          "desc": "Kirana Jet is super easy to use. No need to download any app — just send a message on WhatsApp and your order is done! The product quality is also very good."
+        },
+        "Review11": {
+          "name": "Aditya Singh",
+          "desc": "The best thing about this platform is that it sources items from your own city’s stores — ensuring fast delivery and supporting local businesses at the same time."
+        },
+        "Review12": {
+          "name": "Ruchi Bhardvaj",
+          "desc": "I ordered home cleaning supplies and snacks, everything arrived correctly and the packaging was great. Placing an order on WhatsApp is super simple."
+        }
+    }
   }
 }
