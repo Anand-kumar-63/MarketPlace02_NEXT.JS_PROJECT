@@ -68,7 +68,7 @@ const Review = () => {
               </div>
             </CarouselItem>
 
-            <CarouselItem className="flex flex-col justify-evenly items-center border-2 border-white bg-white/200 h-auto md:h-80 w-auot md:w-[360px] rounded-2xl px-5 mx-10 md:mx-5">
+            <CarouselItem className="flex flex-col justify-evenly items-center border-2 border-white bg-white/20 h-auto md:h-80 w-auot md:w-[360px] rounded-2xl px-5 mx-10 md:mx-5">
               <h1 className="text-sm md:text-2xl">{t(`Curousal-Content.Review2.name`)}</h1>
               <div className="border-2 border-white h-[60%] md:h-[70%] w-[100%] md:w-[90%] overflow-hidden rounded-2xl flex flex-col justify-center items-center text-center p-4">
                 <p className="text-sm md:text-lg text-gray-700">
@@ -78,7 +78,7 @@ const Review = () => {
               </div>
             </CarouselItem>
 
-            <CarouselItem className="flex flex-col justify-evenly items-center border-2 border-white bg-white/200 h-auto md:h-80 w-auot md:w-[360px] rounded-2xl px-5 mx-10 md:mx-5">
+            <CarouselItem className="flex flex-col justify-evenly items-center border-2 border-white bg-white/20 h-auto md:h-80 w-auot md:w-[360px] rounded-2xl px-5 mx-10 md:mx-5">
               <h1 className="text-sm md:text-2xl">{t(`Curousal-Content.Review3.name`)}</h1>
               <div className="border-2 border-white h-[60%] md:h-[70%] w-[100%] md:w-[90%] overflow-hidden rounded-2xl flex flex-col justify-center items-center text-center p-4">
                 <p className="text-sm md:text-lg text-gray-700">
@@ -88,7 +88,7 @@ const Review = () => {
               </div>
             </CarouselItem>
 
-            <CarouselItem className="flex flex-col justify-evenly items-center border-2 border-white bg-white/200 h-auto md:h-80 w-auot md:w-[360px] rounded-2xl px-5 mx-10 md:mx-5">
+            <CarouselItem className="flex flex-col justify-evenly items-center border-2 border-white bg-white/20 h-auto md:h-80 w-auot md:w-[360px] rounded-2xl px-5 mx-10 md:mx-5">
               <h1 className="text-sm md:text-2xl">{t(`Curousal-Content.Review4.name`)}</h1>
               <div className="border-2 border-white h-[60%] md:h-[70%] w-[100%] md:w-[90%] overflow-hidden rounded-2xl flex flex-col justify-center items-center text-center p-4">
                 <p className="text-sm md:text-lg text-gray-700">
@@ -98,7 +98,7 @@ const Review = () => {
               </div>
             </CarouselItem>
 
-            <CarouselItem className="flex flex-col justify-evenly items-center border-2 border-white bg-white/200 h-auto md:h-80 w-auot md:w-[360px] rounded-2xl px-5 mx-10 md:mx-5">
+            <CarouselItem className="flex flex-col justify-evenly items-center border-2 border-white bg-white/20 h-auto md:h-80 w-auot md:w-[360px] rounded-2xl px-5 mx-10 md:mx-5">
               <h1 className="text-sm md:text-2xl">{t(`Curousal-Content.Review5.name`)}</h1>
               <div className="border-2 border-white h-[60%] md:h-[70%] w-[100%] md:w-[90%] overflow-hidden rounded-2xl flex flex-col justify-center items-center text-center p-4">
                 <p className="text-sm md:text-lg text-gray-700">
@@ -111,7 +111,7 @@ const Review = () => {
             {reviews.map((key, index) => (
               <CarouselItem
               key={index}
-                className="flex flex-col justify-evenly items-center border-2 border-white bg-white/200 h-auto md:h-80 w-auot md:w-[360px] rounded-2xl px-5 mx-10 md:mx-5"
+                className="flex flex-col justify-evenly items-center border-2 border-white bg-white/20 h-auto md:h-80 w-auot md:w-[360px] rounded-2xl px-5 mx-10 md:mx-5"
               >
                 <h1 className="text-sm md:text-2xl">{transalate(`${key}.name`)}</h1>
                 <div className="border-2 border-white h-[60%] md:h-[70%] w-[100%] md:w-[90%] overflow-hidden rounded-2xl flex flex-col justify-center items-center text-center p-4">
