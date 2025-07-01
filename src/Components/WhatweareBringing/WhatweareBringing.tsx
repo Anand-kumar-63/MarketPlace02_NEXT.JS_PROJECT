@@ -11,7 +11,7 @@ export default function TransformSection() {
         {/* Left Text Section */}
         <div className="px-4 sm:px-10 md:px-16 max-w-xl">
           <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-black">
-            {translate('heading')} <br />
+            {translate('heading')}
             <br className="hidden md:inline" />
             <span className="text-blue-500">{translate('subheading')}</span>
           </h1>

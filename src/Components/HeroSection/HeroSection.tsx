@@ -7,7 +7,7 @@ const HeroSection = () => {
     <div className="w-full flex flex-row px-2 md:px-20 relative bg-gradient-to-r from-black/20 via-black/40 to-black/20">
       <div className="flex flex-col items-start justify-center gap-4 w-full max-w-screen-xl mx-auto h-full px-4 sm:px-8 md:px-12 lg:px-16 py-8">
         <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-6xl font-bold text-white">
-          {translate("HeroSection.title")} <br />
+          {translate("HeroSection.title")} 
           <br className="hidden md:inline" />
           <span className="text-blue-500">
             {translate("HeroSection.highlight")} <br />
@@ -19,7 +19,7 @@ const HeroSection = () => {
 
         <Button
           onClick={() => (window.location.href = "https://wa.me/919588508988")}
-          className="mt-4 sm:mt-6 px-6 sm:px-10 md:px-12 py-4 sm:py-6 md:py-8 text-lg sm:text-xl md:text-2xl bg-blue-400 text-gray-800 font-sans font-semibold rounded-xl hover:bg-blue-500 hover:opacity-100 transition-all duration-300 cursor-pointer animate-bounce"
+          className="mt-4 sm:mt-6 px-6 sm:px-6 md:px-8 py-4 sm:py-6 md:py-8 text-base md:text-2xl bg-blue-400 text-gray-800 font-sans font-semibold rounded-xl hover:bg-blue-500 hover:opacity-100 transition-all duration-300 cursor-pointer animate-bounce"
         >
           {translate("HeroSection.button_heading")}
           <br className="hidden md:inline" />
@@ -44,7 +44,8 @@ const HeroSection = () => {
           <div className="absolute top-1/2 -translate-y-1/2 right-20 h-[559px] rounded-2xl w-[400px] bg-black/30 z-10"></div>
           <div className="absolute top-1/2 p-10 right-20 h-[459px] w-[400px] z-20">
             <h1 className="font-semibold text-4xl text-white bg-gray-700/50 px-2 rounded-2xl">
-              {translate(`HeroSection.Video_div1_line1`)} <br />
+              {translate(`HeroSection.Video_div1_line1`)} 
+              <br />
               {translate(`HeroSection.Video_div1_line2`)}
               <br className="hidden md:inline" />
               <span className="text-blue-400">
